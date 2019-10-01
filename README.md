@@ -45,7 +45,7 @@ Look [here](https://codepen.io/gmoraleslondono/full/qgmJYd) my survey form.
 
 ## Credits:
 
-This project was created following [Freecodecamp](https://learn.freecodecamp.org) Tutorial.
+This project was created following [freeCodeCamp](https://learn.freecodecamp.org) Tutorial.
 
 Made with ❤ by Gloria Morales.
 

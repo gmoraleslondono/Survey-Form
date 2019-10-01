@@ -1,86 +1,83 @@
 html {
-    background-color: #b5e7a0;
-    font-family: Comic Sans MS;
+  background-image: url(https://image.freepik.com/vector-gratis/perro-gato-pug-hueso-espinas-pescado-huellas-pata-fondo-vector-patron-transparente-bola_7688-21.jpg);
+  background-repeat: repeat;
+  font-family: Comic Sans MS;
 }
 
 header {
-    font-family: mono;
-    text-align: center;
-    font-size: 30px;
+  font-family: mono;
+  text-align: center;
+  font-size: 30px;
+  color: black;
 }
 
 #survey {
-    background-color: white;
-    font-size: 20px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px 100px 60px 100px;
-    border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 100px 60px 100px;
+  border-radius: 5px;
 }
 
 #description {
-    text-align: justify;
+  text-align: justify;
 }
 
 #survey-form {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 input[type="checkbox"] {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
-input[type="radio"]{
-    margin-left:10%;
+input[type="radio"] {
+  margin-left: 10%;
 }
 
 #dropdown {
-    font-size: 16px;
-    font-family: Comic Sans MS;
-    margin-left: 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+  margin-left: 10px;
 }
-
-#name {
-    width: 200px;
-    height: 23px;
-}
-
-#email {
-    width: 200px;
-    height: 23px;
-}
-
-#number {
-    width: 200px;
-    height: 23px;
+.field {
+  width: 200px;
+  height: 23px;
 }
 
 #submit {
-    background-color: #86af49;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: mono;
-    font-size: 30px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 5px;
+  background-color: #86af49;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: mono;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 textarea {
-    width: 90%;
-    display: block;
-    margin: 10px auto;
-    border-radius: 5px;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 fieldset {
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.field[required].invalid {
+  border-color: red;
 }
